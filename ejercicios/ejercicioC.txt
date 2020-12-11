@@ -1,4 +1,4 @@
-//  Ejemplo de uso de arreglos 
+//  Imprimir todos los valores del arreglo cuyo valor sea impar
 1.  Inicio
 2.  indice, i[0-n]
 3.  arreglo(5), i[0-n]
