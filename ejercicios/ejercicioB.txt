@@ -1,0 +1,27 @@
+// arreglo que debe ser llenado por el usuario
+1.  Inicio
+2. (ventas(5),i[0-n])
+3. indice, i[0-n]
+4. (dias(5), x(20)[{a-z}, {BS}])
+5. dias[0]<-- "Lunes"
+6. dias[1]<-- "Martes"
+7. dias[2]<-- "Miércoles"
+8. dias[3]<-- "Jueves"
+9. dias[4]<-- "Viernes"
+10. ventas[0]<-- "130"
+11. ventas[1]<-- "200"
+12. ventas[2]<-- "190"
+13. ventas[3]<-- "200"
+14. ventas[4]<-- "100"
+15. << “Indique el día”
+16. Leer dias   
+17. Para(indice<--0, indice<5, 1) haga
+18.     Escribir dias[indice], "---" + ventas[indicie] 
+19. Fin Para
+20. Fin
+
+
+
+
+
+
