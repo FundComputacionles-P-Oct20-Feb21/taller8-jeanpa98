@@ -7,12 +7,13 @@
 6.  arreglo[2] <-- 20
 7.  arreglo[3] <-- 29
 8.  arreglo[4] <-- 100
-9.  Escribir "|Numeros impares|"
-10.  Para(indice<--0, indice<5, 1) haga
-11.  Si arreglo[indice] mod 2=1 Entonces
-12. Mostrar arreglo[indice]
-13. FinSi
-14. fin
+9. Para (indice<--0, indice<5, 1) haga
+10.  Si ((indice MOD 2) == 1) entonces
+11.     Escribir "El valor es par" + arreglo[indice]
+12.  Fin si
+13. Fin_Para
+14. Fin
+
 
 
 
