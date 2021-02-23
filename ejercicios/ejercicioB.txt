@@ -8,18 +8,14 @@
 7. dias[2]<-- "Miércoles"
 8. dias[3]<-- "Jueves"
 9. dias[4]<-- "Viernes"
-10. ventas[0]<-- "130"
-11. ventas[1]<-- "200"
-12. ventas[2]<-- "190"
-13. ventas[3]<-- "200"
-14. ventas[4]<-- "100"
-15. << “Indique el día”
-16. Leer dias   
-17. Para(indice<--0, indice<5, 1) haga
-18.     Escribir dias[indice], "---" + ventas[indicie] 
-19. Fin Para
-20. Fin
-
+10. Para (indice<--0, indice<5, 1) haga
+11.   Escribir "Ingrese el valor de ventas de cada día de la semana"
+12.   Leer ventas[indice]
+13. Fin_Para
+14. Para (indice<--0, indice<5, 1) haga
+15.   Escribir dias[indice], "\t$" + ventas[indice]
+16. Fin_Para
+17. Fin  
 
 
 
